@@ -1,0 +1,6 @@
+# add new directories there
+databaseChangeLog:
+  - include:
+      file: db/changeSets/1-create-table.sql
+  - include:
+      file: db/changeSets/2-add-data.sql
